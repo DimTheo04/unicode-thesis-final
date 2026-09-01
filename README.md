@@ -1,6 +1,12 @@
-# Academic Code Review & Evaluation Platform
+# Academic Code Review & Evaluation Platform (UNICODE)
 
 Μια ολοκληρωμένη full-stack διαδικτυακή πλατφόρμα διαχείρισης και αξιολόγησης φοιτητικών εργασιών προγραμματισμού, σχεδιασμένη για ακαδημαϊκά περιβάλλοντα (Πανεπιστήμια, Κολλέγια, Σχολές Πληροφορικής). Η πλατφόρμα προσφέρει περιβάλλον In-line Code Review (στα πρότυπα του GitHub Pull Request interface με Monaco Editor), αυτοματοποιημένη ανάλυση κώδικα με Τεχνητή Νοημοσύνη (Google Gemini AI), διαχείριση εκδόσεων υποβολών (versioning), σύστημα ρόλων και δικαιωμάτων (RBAC), καθώς και πλήρη εποπτικά dashboards στατιστικών.
+
+> 🌐 **Live Production App:** [https://unicode-app-production.up.railway.app](https://unicode-app-production.up.railway.app)  
+> 🔑 **Live Demo Accounts:**  
+> - **👑 Admin:** `admin` / `admin123`  
+> - **👨‍🏫 Teacher:** `prof.papadopoulos` / `password123` (Μάθημα CS-101)  
+> - **👨‍🎓 Student:** `student.theodorou` / `password123` (Υποβολή BST & Monaco Review)
 
 ---
 
@@ -305,7 +311,6 @@ code-review-platform-thesis/
 │   ├── Dockerfile                    # Multi-stage Docker build (Builder -> Runner)
 │   └── package.json
 │
-├── docs/                             # Τεκμηρίωση & Διαπιστευτήρια Demo
 ├── docker-compose.yml                # Orchestration για Postgres, Server & Client
 └── package.json                      # Root Orchestration Scripts (concurrently)
 ```
