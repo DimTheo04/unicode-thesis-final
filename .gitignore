@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+.venv/
+env/
+venv/
+
+# Build & Logs
+dist/
+client/dist/
+server/dist/
+build/
+*.log
+
+# Environment variables & IDE
+.env
+.env.*
+!.env.example
+!server/.env.example
+!client/.env.example
+.vscode/
+.idea/
+.DS_Store
+
+# User Uploads & Storage (ephemeral/dynamic)
+uploads/
+server/uploads/
+!uploads/.gitkeep
+!server/uploads/.gitkeep
+
+# Temporary & Scratch Scripts
+*.patch.js
+scratch/
+test-results/
+.system_generated/
+
+# Accidental CLI artifacts
+client/@/
+
+
